@@ -29,7 +29,7 @@
 
 
 
-3. Реализовано API (Swagger), Стэк: FastAPI, Postgres, Celery, Redis, SQLAlchemy, Alembic.
+3. Реализовано API (Swagger), Стэк: FastAPI, PostgreSQL, Celery, Redis, SQLAlchemy, Alembic.
 
 4. Установите все зависимости командой pip install -r requirements.txt
 
