@@ -37,9 +37,9 @@
 
 6. Для запуска приложения, запустите в терминале команду uvicorn app.main:app --reload
 
-7. для запуска Celery используйте команду celery -A app.tasks.celery_app worker --loglevel=info --pool=solo
+7. Скачайте и запустите Redis через Docker на порту 6379
 
-8. Скачайте и запустите Redis через Docker на порту 6379
+8. для запуска Celery используйте команду celery -A app.tasks.celery_app worker --loglevel=info --pool=solo
 
 9. В файле email_utils.py выберите свой SMTP сервер, я использовал в данном случае для yandex.ru, в SMTP_USER напишите свою почту, в SMTP_PASSWORD напишите свой пароль, сгенерированный через пароли приложений.
 
